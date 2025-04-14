@@ -3,27 +3,31 @@ header {
   text-align: center;
 }
 
-h1 {
+h1,h2 {
   margin: 0;
   padding: 1.5rem;
-  color: #fff;
+  color: #782f78;
 }
 
 body {
   margin: 0;
   font-family: Arial;
-  background: #fefefe;
+  background: #ffd6ff;
 }
 .container {
   margin: 1rem;
-  background-color: red;
+  background-color: #c8b6ff;
   display: flex;
   flex-direction: column;
   width: 15rem;
-  padding: 1.2rem;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+  box-shadow: 3px 3px 2px #b189ce;
+}
+
+.container h2 {
+  color: #782f78;
 }
 .form {
   display: flex;
@@ -37,6 +41,9 @@ input {
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 8px;
+  text-align: center;
+  outline: none;
+  background-color: #ffd6ff;
 }
 
 .form button {
@@ -46,10 +53,62 @@ input {
   border: none;
   border-radius: 8px;
   cursor: pointer;
+  box-shadow: 2px 2px 1px rgb(17, 119, 22);
+}
+
+.form button:hover {
+  background: rgb(17, 119, 22);
+  box-shadow: 2px 2px 1px #4caf50;
 }
 
 #library {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
+}
+
+.book-card {
+  margin: 1rem;
+  background-color: #c8b6ff;
+  display: flex;
+  flex-direction: column;
+  width: 15rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 3px 3px 2px #b189ce;
+}
+
+.book-card strong {
+  color: #782f78;
+}
+
+.book-card p {
+  color: #333;
+}
+
+.book-card button {
+  padding: 10px;
+  margin: 0.8rem;
+  background: #067dec;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 2px 2px 1px rgb(4, 90, 140);
+}
+
+.book-card button:hover {
+  background: rgb(17, 119, 22);
+  box-shadow: 2px 2px 1px #4caf50;
+}
+
+.book-card .removeBtn {
+  background-color: red;
+  box-shadow: 2px 2px 1px rgb(157, 25, 25);
+}
+
+.book-card .removeBtn:hover {
+  background-color: rgb(157, 25, 25);
+  box-shadow: 2px 2px 1px rgb(255, 0, 0);
 }
