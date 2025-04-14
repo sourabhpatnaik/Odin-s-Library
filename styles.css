@@ -90,17 +90,22 @@ input {
 .book-card button {
   padding: 10px;
   margin: 0.8rem;
-  background: #067dec;
+  background: red;
   color: white;
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  box-shadow: 2px 2px 1px rgb(4, 90, 140);
+  box-shadow: 2px 2px 1px rgb(157, 25, 25);
+}
+
+.book-card .read{
+  background-color: green;
+  box-shadow: 2px 2px 1px #4caf50;
 }
 
 .book-card button:hover {
-  background: rgb(17, 119, 22);
-  box-shadow: 2px 2px 1px #4caf50;
+  background: rgb(13, 79, 184);
+  box-shadow: 2px 2px 1px #0a6ee0;
 }
 
 .book-card .removeBtn {
