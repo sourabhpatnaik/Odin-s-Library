@@ -13,19 +13,17 @@
     </header>
 
     <div class="container">
-      <div class="card">
-        <div class="info-section">
-          <h2 id="title">Title</h2>
-          <h3 id="author">Author</h3>
-          <h3 id="genre">Genre</h3>
-          <p id="pages">Pages</p>
-        </div>
-        <div class="button-section">
-          <button id="status">Read</button>
-          <button id="remove">Remove</button>
-        </div>
+      <h2>Add a Book</h2>
+      <div class="form">
+        <input type="text" id="title" placeholder="Book Title" />
+        <input type="text" id="author" placeholder="Author" />
+        <input type="text" id="genre" placeholder="Genre" />
+        <input type="number" id="pages" placeholder="Total Pages" />
+        <button id="saveBtn">Save Book</button>
       </div>
     </div>
+    <h2>Your Library</h2>
+    <div id="library"></div>
 
     <script src="./script.js"></script>
   </body>
